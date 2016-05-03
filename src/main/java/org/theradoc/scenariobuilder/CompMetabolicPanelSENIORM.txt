@@ -1,0 +1,20 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||SENIORLASTNAME^MALEFIRSTNAME||19531101|M||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-20408-^HNAM_ORDERID|20408^Comprehensive Metabolic Panel|||20160321115400|||||||2016032100||81775^EBILANE^KESHA||||000002016081106296^HNA_ACCN~81124596^HNA_ACCNID||20160321124745||LB|F||1^^^20160321115400^^R~^^^^^S|^^||||^^||||20160321115400||||||||||||||||
+OBX|1|NM|20001^Sodium, Serum or Plasma^L^2951-2^Sodium, Serum or Plasma^^LN||137|mmol/L|136-144^136^144|||A~S|F||||||
+OBX|2|NM|20002^Potassium, Serum or Plasma^L^2823-3^Potassium, Serum or Plasma^^LN||4.0|mmol/L|3.3-5.0^3.3^5.0|||A~S|F||||||
+OBX|3|NM|20003^Chloride, Serum or Plasma^L^2075-0^Chloride, Serum or Plasma^^LN||104|mmol/L|102-110^102^110|||A~S|F||||||
+OBX|4|NM|20004^Carbon Dioxide, Serum or Plasma^L^2028-9^Carbon Dioxide, Serum or Plasma^^LN||22|mmol/L|20-26^20^26|||A~S|F||||||
+OBX|5|NM|20023^Urea Nitrogen, Serum or Plasma^L^3094-0^Urea Nitrogen, Serum or Plasma^^LN||14|mg/dL|8-24^8^24|||A~S|F||||||
+OBX|6|NM|20025^Creatinine, Serum or Plasma^L^2160-0^Creatinine, Serum or Plasma^^LN||0.91|mg/dL|0.72-1.25^0.72^1.25|||A~S|F||||||
+OBX|7|NM|20024^Glucose, Serum or Plasma^L^2345-7^Glucose, Serum or Plasma^^LN||138|mg/dL|64-128^64^128|H||A~S|F||||||
+OBX|8|NM|20027^Calcium, Serum or Plasma^L^17861-6^Calcium, Serum or Plasma^^LN||8.9|mg/dL|8.4-10.5^8.4^10.5|||A~S|F||||||
+OBX|9|NM|20029^Protein Total, Serum/Plasma^L^2885-2^Protein Total, Serum/Plasma^^LN||7.3|g/dL|6.5-8.4^6.5^8.4|||A~S|F||||||
+OBX|10|NM|20030^Albumin, Serum or Plasma^L^2862-1^Albumin, Serum or Plasma^^LN||3.6|g/dL|3.5-5.0^3.5^5.0|||A~S|F||||||
+OBX|11|NM|20032^Bilirubin, Total, Serum or Plasma^L^1975-2^Bilirubin, Total, Serum or Plasma^^LN||1.0|mg/dL|0.2-1.4^0.2^1.4|||A~S|F||||||
+OBX|12|NM|20005^Alkaline Phosphatase^L^6768-6^Alkaline Phosphatase^^LN||90|U/L|38-126^38^126|||A~S|F||||||
+OBX|13|NM|20007^Aspartate Aminotransferase^L^1920-8^Aspartate Aminotransferase^^LN||34|U/L|16-40^16^40|||A~S|F||||||
+OBX|14|NM|20008^Alanine Aminotransferase^L^1742-6^Alanine Aminotransferase^^LN||36|U/L|5-60^5^60|||A~S|F||||||
+OBX|15|NM|20396^Anion Gap^L^33037-3^Anion Gap^^LN||11|mmol/L|8-14^8^14|||A~S|F||||||

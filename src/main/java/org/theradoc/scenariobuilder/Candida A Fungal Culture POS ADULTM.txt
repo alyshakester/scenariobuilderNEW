@@ -1,0 +1,8 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^MALEFIRSTNAME||1964601|M||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-60149-^HNAM_ORDERID|60149^Culture, Fungal^^580-1^Culture, Fungal|||20160411201600|||||||2016041100|^^^Arm L|463314^TOMSKI^LILY||||000002016102121057^HNA_ACCN~81834402^HNA_ACCNID||20160413144456||MB|P||1^^^20160411223341~^^^^^R|^^||||^^||||20160411201600||||||||||||||||
+OBX|1|TX|60001^Preliminary Report||Culture POSITIVE for ~Candida albicans/dubliniensis ~Identification by phenotypic methods. ~Contact ARUP if additional testing is required ~(801) 583-2787 Ext. 2169 ~Organism(s) saved for one week.|||||A~S|F||||||
+OBX|2|CE|ORGANISM||Canalbdub|||||A~S|P||||||
+OBX|3|CE|CULTPOSNEG||POS|||POS|||P||||||

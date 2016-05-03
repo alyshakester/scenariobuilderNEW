@@ -1,0 +1,31 @@
+MSH|^~\&|MIC|ARUP|||201603111030||ORU^R01||P|2.2|||||
+PID|1||QA999999999||SENIORLASTNAME^FEMALEFIRSTNAME||19640722|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999999||||||||||||
+PV1|1|I|4BRN^01^0001|2|||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|^^||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||201603111030||||||||
+ORC|RE|Placer123|Filler123|||||||||^^||||||||
+OBR|1|Filler123|123456^HNAM_ORDERID-60132-^HNAM_ORDERID|60132^Culture, Wound^^632-0^Culture, Wound|||20160312114200|||||||2016031200|^^^Drainage|12345^DEMO^DOCTOR^^^^DO||||000002016072103083^HNA_ACCN~80868383^HNA_ACCNID||20160316142337||MB|F||1^^^20160312203753^^R~^^^^^R|^^||||^^||||20160312114200||||||||||||||||||
+OBX|1|TX|60003^Final Report||2+ Enterococcus faecalis ~Identification by MALDI-TOF ~Test developed and characteristics determined by ~ARUP Laboratories. See Compliance Statement B: ~aruplab.com/CS ~3 colonies Coagulase negative Staphylococcus species|||||A~S|F||||||
+OBX|2|TX|60011^GS||1+ Gram Positive Cocci ~2+ polymorphonuclear leukocytes (PMNs)|||||A~S|F||||||
+OBX|3|CE|ORGANISM|1|Entfaeca^Enterococcus faecalis^Entfaeca|||||A~S|F||||||
+OBX|4|CE|CULTPOSNEG||POS|||POS|||F||||||
+OBR|2|Placer123|1271220516^HNAM_ORDERID-60790-^HNAM_ORDERID|60790^Susceptibility - Automated broth dilution (Billed)|||20160312114200||2002557|||||2016031200|^^^Drainage|975593^MOILIEN^CLAIR||||000002016072103083^HNA_ACCN~80868383^HNA_ACCNID||20160316142337||MB|F|^1^Entfaeca&Enterococcus faecalis&310168~^^&&310159|1^^^20160312203753^^R~^^^^^R|^^|60132|||^^||||||||||||||||||||||
+OBX|1|NM|60504^Ampicillin&AST Dilutn|1|1|||SUSCEPT||A~S|F||Y||||
+OBX|2|ST|60504^Ampicillin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|3|ST|60512^Cefazolin&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|4|ST|60516^Cefoxitin&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|5|ST|60527^Clindamycin&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|6|NM|61203^Daptomycin&AST Dilutn|1|2|||SUSCEPT||A~S|F||Y||||
+OBX|7|ST|61203^Daptomycin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|8|NM|60532^Doxycycline&AST Dilutn|1|8|||INTERMED||A~S|F||N||||
+OBX|9|ST|60532^Doxycycline&AST Interp|1|Intermediate|||INTERMED||A~S|F||N||||
+OBX|10|ST|60536^Gentamicin&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|11|ST|61122^Gentamicin High Level Resistance&AST Dilutn|1|<=500|||SUSCEPT||A~S|F||N||||
+OBX|12|ST|61122^Gentamicin High Level Resistance&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|13|NM|60699^Linezolid&AST Dilutn|1|1|||SUSCEPT||A~S|F||Y||||
+OBX|14|ST|60699^Linezolid&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|15|ST|61123^Streptomycin High Level Resistance&AST Dilutn|1|<=1000|||SUSCEPT||A~S|F||N||||
+OBX|16|ST|61123^Streptomycin High Level Resistance&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|17|ST|60561^Trimethoprim/Sulfamethoxazole&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|18|NM|60563^Vancomycin&AST Dilutn|1|1|||SUSCEPT||A~S|F||Y||||
+OBX|19|ST|60563^Vancomycin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|20|ST|60500^Susceptibilities Performed&AST Dilutn|1|Performed|||||A~S|F||N||||
+OBX|21|ST|60500^Susceptibilities Performed&AST Interp|1|Completed|||||A~S|F||N||||

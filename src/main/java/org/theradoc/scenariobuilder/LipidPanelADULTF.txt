@@ -1,0 +1,11 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^FEMALEFIRSTNAME||19790601|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-20421-^HNAM_ORDERID|20421^Lipid Panel|||20160321081000|||||||2016032100||14458^WEYGANDT^NGA||||000002016081101423^HNA_ACCN~81115789^HNA_ACCNID||201603211249||LB|P||1^^^20160321081000^^R~^^^^^R|^^||||^^||||20160321081000||||||||||||||||
+OBX|1|NM|20031^Cholesterol, Serum or Plasma^L^2093-3^Cholesterol, Serum or Plasma^^LN||163|mg/dL||||A~S|F||||||
+OBX|2|NM|20040^Triglycerides, Serum or Plasma^L^2571-8^Triglycerides, Serum or Plasma^^LN||92|mg/dL|30-149^30^149|||A~S|F||||||
+OBX|3|NM|20053^HDL Cholesterol^L^2085-9^HDL Cholesterol^^LN||42|mg/dL|40-59^40^59|||A~S|F||||||
+OBX|4|NM|20051^LDL Cholesterol, Calculated^L^13457-7^LDL Cholesterol, Calculated^^LN||103|mg/dL|0-129^0^129|||A~S|F||||||
+OBX|5|NM|20551^Very Low Density Lipoprotein, Calc^L^13458-5^Very Low Density Lipoprotein, Calc^^LN||18|mg/dL|0-30^0^30|||A~S|F||||||
+OBX|6|NM|20705^Non-HDL Cholesterol^L^43396-1^Non-HDL Cholesterol^^LN||121|mg/dL||||A~S|F||||||

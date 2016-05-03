@@ -1,0 +1,16 @@
+MSH|^~\&|LAB|ARUP||000000|20160321124941|P11|ORU^R01|Q1920187859T3350982643|P|2.2
+PID|1||842958327964799||MERLOS^EDELMIRA^||19671001|M||Alpine|1257 Neque Street^^West Valley City^NH^40047|Larimer|(115)630-1039^home|||||820607411979488||||||||||||N||||
+PV1|1|O|UHOR^^^000000^^CD:794^HOS|CD:670840|||365215^BRINDEL^CIERRA|10371^RIPA^LAKESHA|^^||||||||365215^BRINDEL^CIERRA|119|||||||||||||||||||||000000||A|||||||||||^^
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-40002-^HNAM_ORDERID|40002^CBC with Platelet Count|||20160321115800|||||||2016032100||365215^BRINDEL^CIERRA||||000002016081105563^HNA_ACCN~81123486^HNA_ACCNID||20160321124941||LB|F||1^^^20160321113800^^R~^^^^^R|^^||||^^||||20160321113800||||||||||||||||
+OBX|1|NM|40320^White Blood Cell Count^L^6690-2^White Blood Cell Count^^LN||4.74|k/uL|3.20-10.60^3.20^10.60|||A~S|F||||||
+OBX|2|NM|2000168^WBC Instrument||4.74|||||A~S|F||N||||
+OBX|3|NM|40270^Red Blood Cell^L^789-8^Red Blood Cell^^LN||5.64|M/uL|4.69-6.07^4.69^6.07|||A~S|F||||||
+OBX|4|NM|40085^Hemoglobin^L^718-7^Hemoglobin^^LN||16.3|g/dL|14.6-17.8^14.6^17.8|||A~S|F||||||
+OBX|5|NM|40080^Hematocrit^L^4544-3^Hematocrit^^LN||48.6|%|40.8-51.9^40.8^51.9|||A~S|F||||||
+OBX|6|NM|40150^Mean Corpuscular Volume^L^787-2^Mean Corpuscular Volume^^LN||86.2|fL|77.8-94.0^77.8^94.0|||A~S|F||||||
+OBX|7|NM|40145^Mean Corpuscular Hemoglobin^L^785-6^Mean Corpuscular Hemoglobin^^LN||28.9|pg|26.5-32.6^26.5^32.6|||A~S|F||||||
+OBX|8|NM|40140^Mean Corpuscular HGB Concentration^L^786-4^Mean Corpuscular HGB Concentration^^LN||33.5|g/dL|32.7-36.9^32.7^36.9|||A~S|F||||||
+OBX|9|NM|40275^Red Cell Distribution Width^L^788-0^Red Cell Distribution Width^^LN||12.9|%|10.8-14.1^10.8^14.1|||A~S|F||||||
+OBX|10|NM|40235^Platelet^L^777-3^Platelet^^LN||213|k/uL|177-406^177^406|||A~S|F||||||
+OBX|11|NM|40180^Mean Platelet Volume^L^32623-1^Mean Platelet Volume^^LN||6.9|fL|5.9-9.8^5.9^9.8|||A~S|F||||||

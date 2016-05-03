@@ -1,0 +1,14 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^FEMALEFIRSTNAME||19820601|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-20399-^HNAM_ORDERID|20399^Basic Metabolic Panel|||20160321092000|||||||2016032100||796081^DEVENNEY^ELVIRA||||000002016081102497^HNA_ACCN~81118018^HNA_ACCNID||20160321121048||LB|F||1^^^20160321092000^^R~^^^^^R|^^||||^^||||20160321092000||||||||||||||||
+OBX|1|NM|20001^Sodium, Serum or Plasma^L^2951-2^Sodium, Serum or Plasma^^LN||139|mmol/L|136-144^136^144|||A~S|F||||||
+OBX|2|NM|20002^Potassium, Serum or Plasma^L^2823-3^Potassium, Serum or Plasma^^LN||4.4|mmol/L|3.3-5.0^3.3^5.0|||A~S|F||||||
+OBX|3|NM|20003^Chloride, Serum or Plasma^L^2075-0^Chloride, Serum or Plasma^^LN||107|mmol/L|102-110^102^110|||A~S|F||||||
+OBX|4|NM|20004^Carbon Dioxide, Serum or Plasma^L^2028-9^Carbon Dioxide, Serum or Plasma^^LN||24|mmol/L|20-26^20^26|||A~S|F||||||
+OBX|5|NM|20023^Urea Nitrogen, Serum or Plasma^L^3094-0^Urea Nitrogen, Serum or Plasma^^LN||17|mg/dL|8-24^8^24|||A~S|F||||||
+OBX|6|NM|20025^Creatinine, Serum or Plasma^L^2160-0^Creatinine, Serum or Plasma^^LN||0.80|mg/dL|0.57-1.11^0.57^1.11|||A~S|F||||||
+OBX|7|NM|20024^Glucose, Serum or Plasma^L^2345-7^Glucose, Serum or Plasma^^LN||83|mg/dL|64-128^64^128|||A~S|F||||||
+OBX|8|NM|20396^Anion Gap^L^33037-3^Anion Gap^^LN||8|mmol/L|8-14^8^14|||A~S|F||||||
+OBX|9|NM|20027^Calcium, Serum or Plasma^L^17861-6^Calcium, Serum or Plasma^^LN||9.3|mg/dL|8.4-10.5^8.4^10.5|||A~S|F||||||

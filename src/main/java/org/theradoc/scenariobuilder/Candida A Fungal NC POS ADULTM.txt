@@ -1,0 +1,8 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^MALEFIRSTNAME||1964601|M||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-60163-^HNAM_ORDERID|60163^Fungal (Mould) Identification^^15378-3^Fungal (Mould) Identification|||20160408104300|||||||2016040800|^^From Lt IVAD|797^PIGUET^NICKY||||000002016099104245^HNA_ACCN~81747865^HNA_ACCNID||20160413075332||MB|F||1^^^20160412082424^^R~^^^^^R|^^||||^^||||20160408104300||||||||||||||||
+OBX|1|TX|60003^Final Report||Candida glabrata ~Identification by MALDI-TOF ~Test developed and characteristics determined by ~ARUP Laboratories. See Compliance Statement B: ~aruplab.com/CS|||||A~S|F||||||
+OBX|2|CE|ORGANISM||Cangla|||||A~S|F||||||
+OBX|3|CE|CULTPOSNEG||POS|||POS|||F|||||||

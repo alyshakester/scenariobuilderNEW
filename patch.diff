@@ -1,0 +1,332 @@
+From e12c279403d5adcec4fda42cac55286f26e9ae46 Mon Sep 17 00:00:00 2001
+From: "Kester, Alysha" <Alysha_Kester@premierinc.com>
+Date: Tue, 3 May 2016 09:57:06 -0600
+Subject: [PATCH] Fixing Version after stash commit issue
+
+---
+ .classpath                                         |  18 +---
+ .project                                           |   7 --
+ README.md                                          |   1 +
+ .../org/theradoc/scenariobuilder/CBCwPlatelett.txt |  16 +++
+ .../org/theradoc/scenariobuilder/CSVReader.java    |   1 +
+ .../Candida A Fungal Culture POS ADULTM.txt        |   8 ++
+ .../org/theradoc/scenariobuilder/MainWindow.java   | 117 ++++++++++++++++++---
+ .../java/org/theradoc/scenariobuilder/Micro.java   |  24 -----
+ 8 files changed, 133 insertions(+), 59 deletions(-)
+ create mode 100644 README.md
+ create mode 100644 src/main/java/org/theradoc/scenariobuilder/CBCwPlatelett.txt
+ create mode 100644 src/main/java/org/theradoc/scenariobuilder/Candida A Fungal Culture POS ADULTM.txt
+
+diff --git a/.classpath b/.classpath
+index 8e795b1..1ae92de 100644
+--- a/.classpath
++++ b/.classpath
+@@ -6,28 +6,14 @@
+ 			<attribute name="maven.pomderived" value="true"/>
+ 		</attributes>
+ 	</classpathentry>
+-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+-		<attributes>
+-			<attribute name="maven.pomderived" value="true"/>
+-		</attributes>
+-	</classpathentry>
+ 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+ 		<attributes>
+ 			<attribute name="optional" value="true"/>
+ 			<attribute name="maven.pomderived" value="true"/>
+ 		</attributes>
+ 	</classpathentry>
+-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+-		<attributes>
+-			<attribute name="maven.pomderived" value="true"/>
+-		</attributes>
+-	</classpathentry>
+-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+-		<attributes>
+-			<attribute name="maven.pomderived" value="true"/>
+-		</attributes>
+-	</classpathentry>
+-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
++	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
++	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+ 		<attributes>
+ 			<attribute name="maven.pomderived" value="true"/>
+ 		</attributes>
+diff --git a/.project b/.project
+index d9e2160..8619216 100644
+--- a/.project
++++ b/.project
+@@ -20,11 +20,4 @@
+ 		<nature>org.eclipse.jdt.core.javanature</nature>
+ 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+ 	</natures>
+-	<linkedResources>
+-		<link>
+-			<name>src/main/java/org/theradoc/scenariobuilder/MICROSUSCEPTEX.txt</name>
+-			<type>1</type>
+-			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Test%20Txt/MICROSUSCEPTEX.txt</locationURI>
+-		</link>
+-	</linkedResources>
+ </projectDescription>
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..82e6bc3
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++"# scenariobuilder" 
+diff --git a/src/main/java/org/theradoc/scenariobuilder/CBCwPlatelett.txt b/src/main/java/org/theradoc/scenariobuilder/CBCwPlatelett.txt
+new file mode 100644
+index 0000000..d42a1be
+--- /dev/null
++++ b/src/main/java/org/theradoc/scenariobuilder/CBCwPlatelett.txt
+@@ -0,0 +1,16 @@
++MSH|^~\&|LAB|ARUP||000000|20160321124941|P11|ORU^R01|Q1920187859T3350982643|P|2.2
++PID|1||842958327964799||MERLOS^EDELMIRA^||19671001|M||Alpine|1257 Neque Street^^West Valley City^NH^40047|Larimer|(115)630-1039^home|||||820607411979488||||||||||||N||||
++PV1|1|O|UHOR^^^000000^^CD:794^HOS|CD:670840|||365215^BRINDEL^CIERRA|10371^RIPA^LAKESHA|^^||||||||365215^BRINDEL^CIERRA|119|||||||||||||||||||||000000||A|||||||||||^^
++ORC|RE|Placer123|99999|||||||||^^||||||||
++OBR|1|Placer123|99999^HNAM_ORDERID-40002-^HNAM_ORDERID|40002^CBC with Platelet Count|||20160321115800|||||||2016032100||365215^BRINDEL^CIERRA||||000002016081105563^HNA_ACCN~81123486^HNA_ACCNID||20160321124941||LB|F||1^^^20160321113800^^R~^^^^^R|^^||||^^||||20160321113800||||||||||||||||
++OBX|1|NM|40320^White Blood Cell Count^L^6690-2^White Blood Cell Count^^LN||4.74|k/uL|3.20-10.60^3.20^10.60|||A~S|F||||||
++OBX|2|NM|2000168^WBC Instrument||4.74|||||A~S|F||N||||
++OBX|3|NM|40270^Red Blood Cell^L^789-8^Red Blood Cell^^LN||5.64|M/uL|4.69-6.07^4.69^6.07|||A~S|F||||||
++OBX|4|NM|40085^Hemoglobin^L^718-7^Hemoglobin^^LN||16.3|g/dL|14.6-17.8^14.6^17.8|||A~S|F||||||
++OBX|5|NM|40080^Hematocrit^L^4544-3^Hematocrit^^LN||48.6|%|40.8-51.9^40.8^51.9|||A~S|F||||||
++OBX|6|NM|40150^Mean Corpuscular Volume^L^787-2^Mean Corpuscular Volume^^LN||86.2|fL|77.8-94.0^77.8^94.0|||A~S|F||||||
++OBX|7|NM|40145^Mean Corpuscular Hemoglobin^L^785-6^Mean Corpuscular Hemoglobin^^LN||28.9|pg|26.5-32.6^26.5^32.6|||A~S|F||||||
++OBX|8|NM|40140^Mean Corpuscular HGB Concentration^L^786-4^Mean Corpuscular HGB Concentration^^LN||33.5|g/dL|32.7-36.9^32.7^36.9|||A~S|F||||||
++OBX|9|NM|40275^Red Cell Distribution Width^L^788-0^Red Cell Distribution Width^^LN||12.9|%|10.8-14.1^10.8^14.1|||A~S|F||||||
++OBX|10|NM|40235^Platelet^L^777-3^Platelet^^LN||213|k/uL|177-406^177^406|||A~S|F||||||
++OBX|11|NM|40180^Mean Platelet Volume^L^32623-1^Mean Platelet Volume^^LN||6.9|fL|5.9-9.8^5.9^9.8|||A~S|F||||||
+\ No newline at end of file
+diff --git a/src/main/java/org/theradoc/scenariobuilder/CSVReader.java b/src/main/java/org/theradoc/scenariobuilder/CSVReader.java
+index 538682b..01146e8 100644
+--- a/src/main/java/org/theradoc/scenariobuilder/CSVReader.java
++++ b/src/main/java/org/theradoc/scenariobuilder/CSVReader.java
+@@ -60,6 +60,7 @@ public class CSVReader {
+ 		return count;
+ 	}
+ 	
++	@SuppressWarnings("resource")
+ 	public static int readCustomFile(File file) throws ClassNotFoundException, UnknownHostException, IOException, ParseException, SQLException
+ 	{
+ 		int count = 0;
+diff --git a/src/main/java/org/theradoc/scenariobuilder/Candida A Fungal Culture POS ADULTM.txt b/src/main/java/org/theradoc/scenariobuilder/Candida A Fungal Culture POS ADULTM.txt
+new file mode 100644
+index 0000000..c27978d
+--- /dev/null
++++ b/src/main/java/org/theradoc/scenariobuilder/Candida A Fungal Culture POS ADULTM.txt	
+@@ -0,0 +1,8 @@
++MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
++PID|1||QA999999123||ADULTLASTNAME^MALEFIRSTNAME||1964601|M||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
++PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
++ORC|RE|Placer123|99999|||||||||^^||||||||
++OBR|1|Placer123|99999^HNAM_ORDERID-60149-^HNAM_ORDERID|60149^Culture, Fungal^^580-1^Culture, Fungal|||20160411201600|||||||2016041100|^^^Arm L|463314^TOMSKI^LILY||||000002016102121057^HNA_ACCN~81834402^HNA_ACCNID||20160413144456||MB|P||1^^^20160411223341~^^^^^R|^^||||^^||||20160411201600||||||||||||||||
++OBX|1|TX|60001^Preliminary Report||Culture POSITIVE for ~Candida albicans/dubliniensis ~Identification by phenotypic methods. ~Contact ARUP if additional testing is required ~(801) 583-2787 Ext. 2169 ~Organism(s) saved for one week.|||||A~S|F||||||
++OBX|2|CE|ORGANISM||Canalbdub|||||A~S|P||||||
++OBX|3|CE|CULTPOSNEG||POS|||POS|||P||||||
+\ No newline at end of file
+diff --git a/src/main/java/org/theradoc/scenariobuilder/MainWindow.java b/src/main/java/org/theradoc/scenariobuilder/MainWindow.java
+index f20b401..d7daf70 100644
+--- a/src/main/java/org/theradoc/scenariobuilder/MainWindow.java
++++ b/src/main/java/org/theradoc/scenariobuilder/MainWindow.java
+@@ -2920,21 +2920,24 @@ public class MainWindow {
+ 		comboTemplateSelect.setMaximumRowCount(10);
+ 
+ 		// JComboBox<String> comboTemplateSelect
+-		comboTemplateSelect.setModel(new DefaultComboBoxModel(new String[] { "BMP Adult Female", "BMP Senior Female",
+-				"BMP Senior Male", "CMP Adult Female", "CMP Senior Male", "CMP Senior Female", "CMP Teen Female",
+-				"MRSA Culture Respiratory", "MRSA Culture Blood", "MRSA Culture Cerebrospinal", "MRSA Culture Wound",
+-				"Klebsiella Non-Culture Blood", "Micro w Suscept TEST" }));
++		comboTemplateSelect.setModel(new DefaultComboBoxModel<String>(new String[] {"BMP Adult Female","BMP Senior Female","BMP Senior Male",
++				"Candida A Culture POS Adult Male","Candida A NC POS Adult Male","Candida A w/Suscp Adult Male","Candida DNA Probe POS Adult Female",
++				"Candida G w/Suscp Adult Male","Candida Lusitaniae Culture Adult Female","Candida NEG Adult Female","CBC w/Platelett Adult Male",
++				"CMP Adult Female","CMP Senior Female","CMP Senior Male","CMP Teen Female","Comprehensive Metabolic Panel",
++				"Klebsiella Culture Adult Female","Klebsiella Non-Culture Blood","Lipid Panel Adult Female","MRSA Culture Blood",
++				"MRSA Culture Cerebrospinal","MRSA Culture Respiratory","MRSA Culture Wound"}));
+ 
+ 		JButton btnLoadMicro = new JButton("Clear All Fields");
+ 		btnLoadMicro.addActionListener(new ActionListener() {
+ 			public void actionPerformed(ActionEvent e) {
+ 				Micro.clearMicroArray();
++				clearAllMicroFields();
+ 			}
+ 		});
+ 		btnLoadMicro.setBounds(137, 112, 117, 25);
+ 		panel_2.add(btnLoadMicro);
+ 		btnLoadMicro.setBackground(new Color(255, 250, 205));
+-		btnLoadMicro.setEnabled(false);
++		btnLoadMicro.setEnabled(true);
+ 		btnLoadMicroTemplate.addActionListener(new ActionListener() {
+ 			public void actionPerformed(ActionEvent e) {
+ 				String fileName = null;
+@@ -2950,9 +2953,33 @@ public class MainWindow {
+ 				case "BMP Senior Male":
+ 					fileName = "BasicMetabolicSENIORM.txt";
+ 					break;
++				case "CBC w/Platelett Adult Male":
++					fileName = "CBCwPlatelett.txt";
++					break;
+ 				case "CMP Adult Female":
+ 					fileName = "CompMetabolicPanelADULTF.txt";
+ 					break;
++				case "Candida A Culture POS Adult Male":
++					fileName = "Candida A Fungal Culture POS ADULTM.txt";
++					break;
++				case "Candida A NC POS Adult Male":
++					fileName = "Candida A Fungal NC POS ADULTM.txt";
++					break;
++				case "Candida A w/Suscp Adult Male":
++					fileName = "Candida A Susceptibility ADULTM.txt";
++					break;
++				case "Candida G w/Suscp Adult Male":
++					fileName = "Candida Galbrata Susceptibility ADULTM.txt";
++					break;
++				case "Candida Lusitaniae Culture Adult Female":
++					fileName = "Candida lusitaniae Culture ADULTF.txt";
++					break;
++				case "Candida DNA Probe POS Adult Female":
++					fileName = "Candida Species DNA Probe POSADULTF.txt";
++					break;
++				case "Candida NEG Adult Female":
++					fileName = "CandidaNEGADULTF.txt";
++					break;
+ 				case "CMP Senior Male":
+ 					fileName = "CompMetabolicPanelSENIORM.txt";
+ 					break;
+@@ -2965,6 +2992,15 @@ public class MainWindow {
+ 				case "Comprehensive Metabolic Panel":
+ 					fileName = "CompMetabolicPanel.txt";
+ 					break;
++				case "Klebsiella Culture Adult Female":
++					fileName = "Klebsiella Culture ADULTF.txt";
++					break;
++				case "Klebsiella Non-Culture Blood":
++					fileName = "KlebsiellaMicro.txt";
++					break;
++				case "Lipid Panel Adult Female":
++					fileName = "LipidPanelADULTF.txt";
++					break;
+ 				case "MRSA Culture Respiratory":
+ 					fileName = "MRSARespiratory.txt";
+ 					break;
+@@ -2977,13 +3013,7 @@ public class MainWindow {
+ 				case "MRSA Culture Wound":
+ 					fileName = "MRSAwound.txt";
+ 					break;
+-				case "Klebsiella Non-Culture Blood":
+-					fileName = "KlebsiellaMicro.txt";
+-					break;
+-				case "Micro w Suscept TEST":
+-					fileName = "MICROSUSCEPTEX.txt";
+-					break;
+-				}
++							}
+ 				// Choosing to load a new template
+ 				int returnVal = 0;
+ 				if (comboMicroOBR.getItemCount() >= 0) {
+@@ -4854,4 +4884,67 @@ public class MainWindow {
+ 			}
+ 		}, seconds);
+ 	}
++	private void clearAllMicroFields(){
++	//clearOBR
++		tfOBRPlaceOrderNumber.setText(null);
++		tfOBRFillerOrderNumber.setText(null);
++		tfOBRUniversalServiceIdentifier.setText(null);
++		tfOBRPriority.setText(null);
++		tfOBRRequestedDateTime.setText(null);
++		tfOBRObservationDateTime.setText(null);
++		tfOBRObservationEndDateTime.setText(null);
++		tfOBRCollectionVolume.setText(null);
++		tfOBRCollectorIdentifier.setText(null);
++		tfOBRSpecimenActionCode.setText(null);
++		tfOBRDangerCode.setText(null);
++		tfOBRRelevantClinicalInfo.setText(null);
++		tfOBRSpecimenReceivedDateTime.setText(null);
++		tfOBRSpecimenSource.setText(null);
++		tfOBROrderingProvider.setText(null);
++		tfOBROrderCallbackPhone.setText(null);
++		tfOBRPlacerField1.setText(null);
++		tfOBRPlacerField2.setText(null);
++		tfOBRFillerField1.setText(null);
++		tfOBRFillerField2.setText(null);
++		tfOBRResultsRptStatusChng.setText(null);
++		tfOBRChargeToPractice.setText(null);
++		tfOBRDiagnosticServiceSectionID.setText(null);
++		tfOBRResultsStatus.setText(null);
++		tfOBRParentResult.setText(null);
++		tfOBRQuantityTiming.setText(null);
++		tfOBRResultCopiesTo.setText(null);
++		tfOBRParentNumber.setText(null);
++		tfOBRTransportationMode.setText(null);
++		tfOBRReasonForStudy.setText(null);
++		tfOBRPrincipalResultInterpreter.setText(null);
++		tfOBRAssistantResultInterpreter.setText(null);
++		tfOBRTechnician.setText(null);
++		tfOBRTranscriptionist.setText(null);
++		tfOBRScheduledDateTime.setText(null);
++		tfOBRNumberOfSamplesContainers.setText(null);
++		tfOBRTransportLogisiticsOfCollectedSample.setText(null);
++		tfOBRCollectorsComment.setText(null);
++		tfOBRTransportArrangement.setText(null);
++		tfOBRTransportArranged.setText(null);
++		tfOBREscortRequired.setText(null);
++		tfOBRPlannedPatientTransportComment.setText(null);
++		//clear OBX
++		tfOBXValueType.setText(null);
++		tfOBXObservationIdentifier.setText(null);
++		tfOBXObservationSubID.setText(null);
++		tfOBXObservationValue.setText(null);
++		tfOBXUnits.setText(null);
++		tfOBXReferencesRange.setText(null);
++		tfOBXAbnormalFlags.setText(null);
++		tfOBXProbability.setText(null);
++		tfOBXNatureOfAbnormalTest.setText(null);
++		tfOBXObservResultStatus.setText(null);
++		tfOBXDateLastObsNormalValues.setText(null);
++		tfOBXUserDefinedAccessChecks.setText(null);
++		tfOBXDateTimeOfTheObservation.setText(null);
++		tfOBXProducersID.setText(null);
++		tfOBXResponsibleObserver.setText(null);
++		tfOBXObservationMethod.setText(null);
++		
++	}
+ }
+diff --git a/src/main/java/org/theradoc/scenariobuilder/Micro.java b/src/main/java/org/theradoc/scenariobuilder/Micro.java
+index f74eb2f..c48983a 100644
+--- a/src/main/java/org/theradoc/scenariobuilder/Micro.java
++++ b/src/main/java/org/theradoc/scenariobuilder/Micro.java
+@@ -152,30 +152,6 @@ public class Micro {
+ 		return obrDD;
+ 	}
+ 
+-	// public static void populateOBRDropdown(JComboBox<String> obrDD) {
+-	// for (int i = 0; i < fullMicroArray.size(); i++) {
+-	// if (fullMicroArray.get(i).substring(0,
+-	// fullMicroArray.get(i).indexOf("|")).equals("OBR")) {
+-	// }
+-	// i++;
+-	// obrCount++;
+-	// obrDD.addItem("OBR " + obrCount);
+-	// System.out.println(obrDD);
+-	// }
+-	// if(obrDD.getItemCount() >0){
+-	// final MutableComboBoxModel<String> obrDD2 =
+-	// (MutableComboBoxModel<String>) new JComboBox(obrDD);
+-	// for (int i = 0; i < fullMicroArray.size(); i++) {
+-	// if (fullMicroArray.get(i).substring(0,
+-	// fullMicroArray.get(i).indexOf("|")).equals("OBR")) {
+-	// }
+-	// i++;
+-	// obrCount++;
+-	// obrDD2.addElement("OBR " + obrCount);
+-	// System.out.println(obrDD2);
+-	// }
+-	// }}
+-	////
+ 
+ 	// Populating the OBX number for the OBR selected in the drop down
+ 	public static void populateOBXDropdown(Object object, JComboBox<String> obxDD) {
+-- 
+2.6.1.windows.1
+

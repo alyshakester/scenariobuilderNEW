@@ -1,0 +1,8 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^FEMALEFIRSTNAME||1990601|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-2009257-^HNAM_ORDERID|2009257^Susceptibility, Fungal (Yeasts & Molds)|||20160406131000|||||||2016040600|^^^Peritoneal|107584^QUINK^TATYANA||||000002016097109361^HNA_ACCN~81670319^HNA_ACCNID||20160414105723||MB|P||1^^^20160413134151^^R~^^^^^R|^^||||^^||||20160406131000||||||||||||||||
+OBX|1|TX|60001^Preliminary Report||Candida albicans ~Identification by MALDI-TOF ~Test developed and characteristics determined by ~ARUP Laboratories. See Compliance Statement B: ~aruplab.com/CS ~Susceptibility to follow.|||||A~S|F||||||
+OBX|2|CE|ORGANISM||Canalb|||||A~S|P||||||
+OBX|3|CE|CULTPOSNEG||POS|||POS|||P||||||

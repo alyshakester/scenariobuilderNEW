@@ -1,0 +1,30 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^FEMALEFIRSTNAME||19650701|M||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-40003-^HNAM_ORDERID|40003^CBC with Plt Count and Auto Diff|||20160321122800|||||||2016032100||7532^FOREE^GERTRUDIS||||000002016081107447^HNA_ACCN~81126336^HNA_ACCNID||20160321124740||LB|F||1^^^20160321122829^^R~^^^^^R|^^||||^^||||20160321122800||||||||||||||||
+OBX|1|NM|40320^White Blood Cell Count^L^6690-2^White Blood Cell Count^^LN||5.72|k/uL|3.20-10.60^3.20^10.60|||A~S|F||||||
+OBX|2|NM|2000168^WBC Instrument||5.72|||||A~S|F||N||||
+OBX|3|NM|40270^Red Blood Cell^L^789-8^Red Blood Cell^^LN||4.87|M/uL|4.69-6.07^4.69^6.07|||A~S|F||||||
+OBX|4|NM|40085^Hemoglobin^L^718-7^Hemoglobin^^LN||15.3|g/dL|14.6-17.8^14.6^17.8|||A~S|F||||||
+OBX|5|NM|40080^Hematocrit^L^4544-3^Hematocrit^^LN||41.7|%|40.8-51.9^40.8^51.9|||A~S|F||||||
+OBX|6|NM|40150^Mean Corpuscular Volume^L^787-2^Mean Corpuscular Volume^^LN||85.6|fL|77.8-94.0^77.8^94.0|||A~S|F||||||
+OBX|7|NM|40145^Mean Corpuscular Hemoglobin^L^785-6^Mean Corpuscular Hemoglobin^^LN||31.4|pg|26.5-32.6^26.5^32.6|||A~S|F||||||
+OBX|8|NM|40140^Mean Corpuscular HGB Concentration^L^786-4^Mean Corpuscular HGB Concentration^^LN||36.6|g/dL|32.7-36.9^32.7^36.9|||A~S|F||||||
+OBX|9|NM|40275^Red Cell Distribution Width^L^788-0^Red Cell Distribution Width^^LN||13.7|%|10.8-14.1^10.8^14.1|||A~S|F||||||
+OBX|10|NM|40235^Platelet^L^777-3^Platelet^^LN||230|k/uL|177-406^177^406|||A~S|F||||||
+OBX|11|NM|40180^Mean Platelet Volume^L^32623-1^Mean Platelet Volume^^LN||7.1|fL|5.9-9.8^5.9^9.8|||A~S|F||||||
+OBX|12|NM|40075^Granulocyte %^L^19023-1^Granulocyte %^^LN||57.8|%|44.0-76.0^44.0^76.0|||A~S|F||||||
+OBX|13|NM|40130^Lymphocyte %^L^736-9^Lymphocyte %^^LN||32.4|%|14.7-42.6^14.7^42.6|||A~S|F||N||||
+OBX|14|NM|40175^Monocyte %^L^5905-5^Monocyte %^^LN||5.7|%|4.0-8.9^4.0^8.9|||A~S|F||||||
+OBX|15|NM|40061^Eosinophil %^L^713-8^Eosinophil %^^LN||0.9|%|0.0-6.0^0.0^6.0|||A~S|F||||||
+OBX|16|NM|40032^Basophil %^L^706-2^Basophil %^^LN||1.3|%|0.0-1.7^0.0^1.7|||A~S|F||||||
+OBX|17|NM|40083^Large Unstained Cells %||1.9|%|1.7-5.2^1.7^5.2|||A~S|F||N||||
+OBX|18|NM|40070^Granulocyte #^L^20482-6^Granulocyte #^^LN||3.3|k/uL|1.3-7.0^1.3^7.0|||A~S|F||||||
+OBX|19|NM|40125^Lymph #^L^731-0^Lymph #^^LN||1.8|k/uL|0.8-3.1^0.8^3.1|||A~S|F||N||||
+OBX|20|NM|40170^Monocyte #^L^742-7^Monocyte #^^LN||0.3|k/uL|0.2-0.7^0.2^0.7|||A~S|F||||||
+OBX|21|NM|40056^Eosinophil #^L^711-2^Eosinophil #^^LN||0.0|k/uL|0.0-0.4^0.0^0.4|||A~S|F||||||
+OBX|22|NM|40031^Basophil #^L^704-7^Basophil #^^LN||0.1|k/uL|0.0-0.1^0.0^0.1|||A~S|F||||||
+OBX|23|NM|40084^Large Unstained Cells #||0.1|k/uL|0.1-0.4^0.1^0.4|||A~S|F||N||||
+OBX|24|NM|40013^Lymphocyte %^L^17788-1^Lymphocyte %^^LN||34.3|%|14.7-42.6^14.7^42.6|||A~S|F||||||
+OBX|25|NM|40012^Lymphocyte #^L^17789-9^Lymphocyte #^^LN||1.9|k/uL|0.8-3.1^0.8^3.1|||A~S|F||||||

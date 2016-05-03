@@ -1,0 +1,29 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^FEMALEFIRSTNAME||1968601|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-2009257-^HNAM_ORDERID|2009257^Susceptibility, Fungal (Yeasts & Molds)|||20160407133000|||||||2016040700|^^Deep Fascia|51609^LANZALOTTI^RODRIGO||||000002016098110145^HNA_ACCN~81714819^HNA_ACCNID||20160412134507||MB|F||1^^^20160410100021~^^^^^R|^^||||^^||||20160407133000||||||||||||||||
+OBX|1|TX|60003^Final Report||Candida lusitaniae ~Identification by MALDI-TOF ~Test developed and characteristics determined by ~ARUP Laboratories. See Compliance Statement B: ~aruplab.com/CS ~This organism typically displays elevated Minimum ~Inhibitory Concentrations (MICs) to Amphotericin B. ~Although little data are available regarding correlation ~between MIC and treatment outcome for ~fungi, Amphotericin B MICs above 2 ug/mL have been ~associated with treatment failure.|||||A~S|F||||||
+OBX|2|CE|ORGANISM|1|Canlus^Candida lusitaniae^Canlus|||||A~S|F||||||
+OBX|3|CE|CULTPOSNEG||POS|||POS|||F||||||
+OBR|2|Placer123|1287106300^HNAM_ORDERID-61009-^HNAM_ORDERID|61009^Susceptibility - Yeast by broth dilution (Billed)|||20160407133000||2000167|||||2016040700||51609^LANZALOTTI^RODRIGO||||000002016098110145^HNA_ACCN~81714819^HNA_ACCNID||20160412134507||MB|F|^1^Canlus&Candida lusitaniae&310102~^^&&310980|1^^^20160410100021~^^^^^R|^^|2009257|||^^||||||||||||||||||||
+OBX|1|NM|60754^Anidulafungin&MIC Dilutn|1|0.12|||||A~S|F||Y||||
+OBX|2|ST|60754^Anidulafungin&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|3|NM|60743^Micafungin&MIC Dilutn|1|0.06|||||A~S|F||Y||||
+OBX|4|ST|60743^Micafungin&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|5|NM|61211^Caspofungin&MIC Dilutn|1|0.25|||||A~S|F||Y||||
+OBX|6|ST|61211^Caspofungin&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|7|NM|60535^5-Fluorocytosine&MIC Dilutn|1|64|||||A~S|F||Y||||
+OBX|8|ST|60535^5-Fluorocytosine&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|9|NM|61219^Posaconazole&MIC Dilutn|1|0.016|||||A~S|F||Y||||
+OBX|10|ST|61219^Posaconazole&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|11|ST|61210^Voriconazole&MIC Dilutn|1|<=0.008|||||A~S|F||Y||||
+OBX|12|ST|61210^Voriconazole&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|13|NM|60653^Itraconazole&MIC Dilutn|1|0.12|||||A~S|F||Y||||
+OBX|14|ST|60653^Itraconazole&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|15|NM|60508^Fluconazole&MIC Dilutn|1|0.5|||||A~S|F||Y||||
+OBX|16|ST|60508^Fluconazole&MIC Interp|1|No Interpretation|||||A~S|F||Y||||
+OBX|17|NM|60503^Amphotericin B&MIC Dilutn|1|0.5|||||A~S|F||N||||
+OBX|18|ST|60503^Amphotericin B&MIC Interp|1|No Interpretation|||||A~S|F||N||||
+OBX|19|NM|60500^Susceptibilities Performed&MIC Dilutn|1|1|||||A~S|F||N||||
+OBX|20|ST|60500^Susceptibilities Performed&MIC Interp|1|Performed|||||A~S|F||N||||

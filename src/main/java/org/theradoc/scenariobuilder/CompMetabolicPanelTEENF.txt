@@ -1,0 +1,20 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||TEENLASTNAME^FEMALEFIRSTNAME||19990701|F||Khoesanoid|3842 Eu Rd.^^Fort Lauderdale^NH^56341|Marion|(108)859-7941^home|(114)608-6760^business||||831084528249437||||Chinookan||||||||N||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-20408-^HNAM_ORDERID|20408^Comprehensive Metabolic Panel|||20160321082800|||||||2016032100||14458^WEYGANDT^NGA||||000002016081101663^HNA_ACCN~81116240^HNA_ACCNID||20160321124320||LB|F|23107|1^^^20160321082800^^R~^^^20160321082800^^R|^^|1275726007&HNAM_ORDERID^E83254354&UH Placer ID|||^^||||20160321082800||||||||||||||||
+OBX|1|NM|20001^Sodium, Serum or Plasma^L^2951-2^Sodium, Serum or Plasma^^LN||142|mmol/L|136-144^136^144|||A~S|F||||||
+OBX|2|NM|20002^Potassium, Serum or Plasma^L^2823-3^Potassium, Serum or Plasma^^LN||4.0|mmol/L|3.3-5.0^3.3^5.0|||A~S|F||||||
+OBX|3|NM|20003^Chloride, Serum or Plasma^L^2075-0^Chloride, Serum or Plasma^^LN||109|mmol/L||||A~S|F||||||
+OBX|4|NM|20004^Carbon Dioxide, Serum or Plasma^L^2028-9^Carbon Dioxide, Serum or Plasma^^LN||22|mmol/L|16-25^16^25|||A~S|F||||||
+OBX|5|NM|20023^Urea Nitrogen, Serum or Plasma^L^3094-0^Urea Nitrogen, Serum or Plasma^^LN||9|mg/dL|5-18^5^18|||A~S|F||||||
+OBX|6|NM|20025^Creatinine, Serum or Plasma^L^2160-0^Creatinine, Serum or Plasma^^LN||0.52|mg/dL|0.60-0.90^0.60^0.90|L||A~S|F||||||
+OBX|7|NM|20024^Glucose, Serum or Plasma^L^2345-7^Glucose, Serum or Plasma^^LN||76|mg/dL|60-115^60^115|||A~S|F||||||
+OBX|8|NM|20027^Calcium, Serum or Plasma^L^17861-6^Calcium, Serum or Plasma^^LN||9.5|mg/dL|8.8-10.4^8.8^10.4|||A~S|F||||||
+OBX|9|NM|20029^Protein Total, Serum/Plasma^L^2885-2^Protein Total, Serum/Plasma^^LN||7.2|g/dL|6.4-8.3^6.4^8.3|||A~S|F||||||
+OBX|10|NM|20030^Albumin, Serum or Plasma^L^2862-1^Albumin, Serum or Plasma^^LN||4.3|g/dL|3.4-4.9^3.4^4.9|||A~S|F||||||
+OBX|11|NM|20032^Bilirubin, Total, Serum or Plasma^L^1975-2^Bilirubin, Total, Serum or Plasma^^LN||0.5|mg/dL|0.2-1.4^0.2^1.4|||A~S|F||||||
+OBX|12|NM|20005^Alkaline Phosphatase^L^6768-6^Alkaline Phosphatase^^LN||70|U/L|47-175^47^175|||A~S|F||||||
+OBX|13|NM|20007^Aspartate Aminotransferase^L^1920-8^Aspartate Aminotransferase^^LN||17|U/L|13-26^13^26|||A~S|F||||||
+OBX|14|NM|20008^Alanine Aminotransferase^L^1742-6^Alanine Aminotransferase^^LN||15|U/L|8-22^8^22|||A~S|F||||||
+OBX|15|NM|20396^Anion Gap^L^33037-3^Anion Gap^^LN||11|mmol/L|8-14^8^14|||A~S|F||||||

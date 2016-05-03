@@ -1,0 +1,10 @@
+MSH|^~\&|LAB|ARUP|||20160422110000||ORU^R01||P|2.2||
+PID|1||QA999999123||ADULTLASTNAME^FEMALEFIRSTNAME||1990601|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999123|||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||20160422110000|||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-65153-^HNAM_ORDERID|65153^Vaginal Pathogen Panel by DNA Probe|||20160413154700|||||||2016041300||9019759^KOKOCINSKI^KERRIE||||000002016104114688^HNA_ACCN~81915466^HNA_ACCNID||20160414092808||LB|F||1^^^20160413154700^^R~^^^^^R|^^||||^^||||20160413154700||||||||||||||||
+OBX|1|ST|65157^Candida Species DNA Probe^L^54142-5^Candida Species DNA Probe^^LN||Positive||Negative^Negative|A||A~S|F||||||
+OBX|2|ST|65161^Gardnerella vaginalis DNA Probe^L^54143-3^Gardnerella vaginalis DNA Probe^^LN||Positive||Negative^Negative|A||A~S|F||||||
+OBX|3|ST|65166^Trichomonas vaginalis DNA Probe^L^54144-1^Trichomonas vaginalis DNA Probe^^LN||Negative||Negative^Negative|||A~S|F||||||
+OBX|4|ST|2010480^NC_VAGP POS||Positive|||||A~S|F||N||||
+OBX|5|ST|2010479^NC_VAGP NEG||Negative|||||A~S|F||N||||

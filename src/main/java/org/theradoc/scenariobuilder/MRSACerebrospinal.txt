@@ -1,0 +1,39 @@
+MSH|^~\&|MIC|ARUP|||201603111030||ORU^R01||P|2.2|||||
+PID|1||QA999999999||SENIORLASTNAME^FEMALEFIRSTNAME||19640722|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999999||||||||||||
+PV1|1|I|4BRN^01^0001|2|||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|^^||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||201603111030||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-60106-^HNAM_ORDERID|60106^Culture, Cerebrospinal Fluid|||20160411112300|||||||2016031100||130397^RILING^DAVINA||||000002016071105458^HNA_ACCN~80831347^HNA_ACCNID||20160316143302||MB|F||1^^^20160311152101^^R~^^^^^R|^^||||^^||||20160311112300||||||||||||||||
+OBX|1|TX|60003^Final Report||1+ Staphylococcus hominis ~Identification by MALDI-TOF ~Test developed and characteristics determined by ~ARUP Laboratories. See Compliance Statement B: ~aruplab.com/CS|||||A~S|F||||||
+OBX|2|CE|ORGANISM|1|Stahom^Staphylococcus hominis^Stahom|||||A~S|F||||||
+OBX|3|CE|CULTPOSNEG||POS|||POS|||F||||||
+OBR|2|Placer123|1270569996^HNAM_ORDERID-60418-^HNAM_ORDERID|60418^Susceptibility - Disk diffusion (Billed)|||20160311112300|||||||2016031100||130397^RILING^DAVINA||||000002016071105458^HNA_ACCN~80831347^HNA_ACCNID||20160316143302||MB|F|^1^Stahom&Staphylococcus hominis&310771~^^&&6325660|1^^^20160311152101^^R~^^^^^R|^^|60106|||^^||||||||||||||||||||
+OBX|1|ST|60036^Oxacillin Screen&KB Zone|1|60416|||RESIST||A~S|F||N||||
+OBX|2|ST|60036^Oxacillin Screen&KB Interp|1|Resistant|||RESIST||A~S|F||Y||||
+OBR|3|Placer123|1270569996^HNAM_ORDERID-60790-^HNAM_ORDERID|60790^Susceptibility - Automated broth dilution (Billed)|||20160311112300||2002557|||||2016031100||130397^RILING^DAVINA||||000002016071105458^HNA_ACCN~80831347^HNA_ACCNID||20160316143302||MB|F|^1^Stahom&Staphylococcus hominis&310771~^^&&6325660|1^^^20160311152101^^R~^^^^^R|^^|60106|||^^||||||||||||||||||||
+OBX|1|ST|60504^Ampicillin&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|2|ST|60527^Clindamycin&AST Interp|1|Performed|||||A~S|F||N||||
+OBX|3|ST|61203^Daptomycin&AST Dilutn|1|<=1|||SUSCEPT||A~S|F||N||||
+OBX|4|ST|61203^Daptomycin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|5|ST|60532^Doxycycline&AST Interp|1|Performed|||||A~S|F||N||||
+OBX|6|ST|60533^Erythromycin&AST Interp|1|Performed|||||A~S|F||N||||
+OBX|7|ST|60536^Gentamicin&AST Dilutn|1|<=2|||SUSCEPT||A~S|F||N||||
+OBX|8|ST|60536^Gentamicin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|9|ST|61007^Levofloxacin&AST Interp|1|Performed|||||A~S|F||N||||
+OBX|10|NM|60699^Linezolid&AST Dilutn|1|1|||SUSCEPT||A~S|F||N||||
+OBX|11|ST|60699^Linezolid&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|12|ST|61204^Moxifloxacin&AST Interp|1|Performed|||||A~S|F||N||||
+OBX|13|ST|60551^Oxacillin&AST Dilutn|1|Not Reported|||RESIST||A~S|F||N||||
+OBX|14|ST|60551^Oxacillin&AST Interp|1|Resistant|||RESIST||A~S|F||Y||||
+OBX|15|ST|60552^Penicillin&AST Dilutn|1|>=2|||RESIST||A~S|F||N||||
+OBX|16|ST|60552^Penicillin&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|17|ST|60555^Rifampin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||N||||
+OBX|18|ST|60555^Rifampin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|19|ST|60558^Tetracycline&AST Interp|1|Performed|||||A~S|F||N||||
+OBX|20|NM|60563^Vancomycin&AST Dilutn|1|1|||SUSCEPT||A~S|F||Y||||
+OBX|21|ST|60563^Vancomycin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|22|ST|60500^Susceptibilities Performed&AST Dilutn|1|Performed|||||A~S|F||N||||
+OBX|23|ST|60500^Susceptibilities Performed&AST Interp|1|Completed|||||A~S|F||N||||
+OBX|24|ST|2099935^Interpretative Information&AST Interp|1|See Note|||||A~S|F||Y||||
+OBR|4|Placer123|1270569996^HNAM_ORDERID-60445-^HNAM_ORDERID|60445^Susceptibility - MecA Gene Detection by PCR (Billed)|||20160311112300||2049960|||||2016031100||130397^RILING^DAVINA||||000002016071105458^HNA_ACCN~80831347^HNA_ACCNID||20160316143302||MB|F|^1^Stahom&Staphylococcus hominis&310771~^^&&6325660|1^^^20160311152101^^R~^^^^^R|^^|60106|||^^||||||||||||||||||||
+OBX|1|ST|60693^mecA Gene&mecA Gene|1|Absent|||||A~S|F||N||||
+OBX|2|ST|2099935^Interpretative Information&mecA Gene|1|See Note|||||A~S|F||N||||

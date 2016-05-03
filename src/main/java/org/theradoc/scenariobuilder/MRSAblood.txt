@@ -1,0 +1,44 @@
+MSH|^~\{|ALL|DEMO|CAI||20160311150700||ORU^R01||P|2.2|
+PID|1||QA999999999||SENIORLASTNAME^FEMALEFIRSTNAME||19640722|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999999||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||201603110730||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-60131-^HNAM_ORDERID|60102^Culture, Blood^^600-7^Culture, Blood|||20160111150700|||||||20160311150700|^^^Blood|12345^DEMO^DOCTOR^^^^DO||||000002015106111942^HNA_ACCN~70561727^HNA_ACCNID||20160111150700||MB|F||1^^^20150417015538^^R~^^^^^R|^^||||^^||||20160111150700|||||||
+OBX|1|TX|60003^Final Report||3+ Staphylococcus aureus ~Susceptibility to follow.|||||A~S|F||||||
+OBX|2|CE|ORGANISM|1|Staaur^Staphylococcus aureus^Staaur|||||A~S|F||||||
+OBX|3|CE|CULTPOSNEG||POS|||POS|||F||||||
+OBR|2|Placer123|Filler123^HNAM_ORDERID-60790-^HNAM_ORDERID|60790^Susceptibility - Penicillin Binding Protein 2a (Billed)|||20160311150700||2002557|||||20160311000|^^^blood|ID1234^DRLASTNAME^FIRSTNAMEDR||||000002015097113490^HNA_ACCN~70263970^HNA_ACCNID||20160311150700||MB|F|^1^Staaur&Staphylococcus aureus&310783~^^&&8616519|1^^^20160307215724^^R~^^^^^R|^^|11111|||^^||||||||||||||||||||
+OBX|1|ST|2009386^Oxacillin Resistance (PBP2a)&PBP interp|1|Absent|||||A~S|F||Y||||||
+OBX|2|ST|2099935^Interpretative Information&PBP interp|1|See Note|||||A~S|F||Y||||||
+OBR|3|Placer123|Filler123^HNAM_ORDERID-60791-^HNAM_ORDERID|60790^Susceptibility - Automated broth dilution (Billed)|||20160311123900||2002557|||||2016031100|^^^Cystic Sputum|123^DOCTOR^FIRSTNAME||||000002016071108124^HNA_ACCN~123456^HNA_ACCNID||20160314063419||MB|P|^1^Staaur&Staphylococcus aureus&310783~^^&&8616519|1^^^20160311152024^^R~^^^^^R|^^|12345|||^^|||||||||||||||||||
+OBX|1|ST|60504^Ampicillin&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|2|ST|60516^Cefoxitin&AST Dilutn|1|<=4|||SUSCEPT||A~S|F||N||||
+OBX|3|ST|60516^Cefoxitin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|4|ST|60527^Clindamycin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|5|ST|60527^Clindamycin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|6|ST|60532^Doxycycline&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||N||||
+OBX|7|ST|60532^Doxycycline&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|8|ST|60533^Erythromycin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|9|ST|60533^Erythromycin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|10|ST|60536^Gentamicin&AST Dilutn|1|<=2|||SUSCEPT||A~S|F||Y||||
+OBX|11|ST|60536^Gentamicin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|12|ST|61007^Levofloxacin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|13|ST|61007^Levofloxacin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|14|NM|60699^Linezolid&AST Dilutn|1|2|||SUSCEPT||A~S|F||Y||||
+OBX|15|ST|60699^Linezolid&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|16|ST|61204^Moxifloxacin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||N||||
+OBX|17|ST|61204^Moxifloxacin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|18|NM|60551^Oxacillin&AST Dilutn|1|0.5|||SUSCEPT||A~S|F||Y||||
+OBX|19|ST|60551^Oxacillin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|20|ST|60552^Penicillin&AST Dilutn|1|>=2|||RESIST||A~S|F||Y||||
+OBX|21|ST|60552^Penicillin&AST Interp|1|Resistant|||RESIST||A~S|F||Y||||
+OBX|22|ST|60555^Rifampin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|23|ST|60555^Rifampin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|24|ST|60558^Tetracycline&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|25|ST|60558^Tetracycline&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|26|ST|60561^Trimethoprim/Sulfamethoxazole&AST Dilutn|1|<=1/19|||SUSCEPT||A~S|F||Y||||
+OBX|27|ST|60561^Trimethoprim/Sulfamethoxazole&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|28|ST|60563^Vancomycin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|29|ST|60563^Vancomycin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|30|ST|60500^Susceptibilities Performed&AST Dilutn|1|Performed|||||A~S|F||N||||
+OBX|31|ST|60500^Susceptibilities Performed&AST Interp|1|Completed|||||A~S|F||N||||
+OBX|32|ST|2099935^Interpretative Information&AST Interp|1|See Note|||||A~S|F||Y||||

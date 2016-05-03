@@ -1,0 +1,36 @@
+MSH|^~\{|ALL|DEMO|CAI||20160311150700||ORU^R01||P|2.2|
+PID|1||QA999999999||SENIORLASTNAME^FEMALEFIRSTNAME||19640722|F||C|1234^Anywhere^Salt Lake City,^UTAH^84105|SALT LAKE|||ENG|M|REL|QA999999999||||||||||||
+PV1|1|I|4BRN^01^0001||||ID1234^DRLASTNAME^FIRSTNAMEDR|12345^DEMO^DOCTOR^^^^DO|||||||||ID1234^DRLASTNAME^FIRSTNAMEDR|I||||||||||||||||||||||||||201603110730||||||||
+ORC|RE|Placer123|99999|||||||||^^||||||||
+OBR|1|Placer123|99999^HNAM_ORDERID-60131-^HNAM_ORDERID|60102^Culture, Blood^^600-7^Culture, Blood|||20160111150700|||||||201504111000|^^^Blood|12345^DEMO^DOCTOR^^^^DO||||000002015106111942^HNA_ACCN~70561727^HNA_ACCNID||20160111150700||MB|F||1^^^20150417015538^^R~^^^^^R|^^||||^^||||20160111150700|||||||
+OBX|1|TX|60003^Final Report||20,000 cfu/mL Klebsiella oxytoca|||||A~S|F||||||
+OBX|2|CE|ORGANISM|1|Kleoxy^Klebsiella oxytoca^Kleoxy|||||A~S|F||||||
+OBX|3|CE|CULTPOSNEG||POS|||POS|||F||||||
+OBR|2|Placer123|Filler123^HNAM_ORDERID-60790-^HNAM_ORDERID|60790^Susceptibility - Automated broth dilution (Billed)|||20160111150700||60457|||||201504111000||ID1234^DRLASTNAME^FIRSTNAMEDR||||000002015097113490^HNA_ACCN~70263970^HNA_ACCNID||20160111150700||MB|F|^1^Kleoxy&Klebsiella oxytoca&310355|1^^^20150407215724^^R~^^^^^R|^^|60131|||^^||||||||||||||||||||
+OBX|1|ST|60501^Amikacin&AST Dilutn|1|<=4|||SUSCEPT||A~S|F||N||||
+OBX|2|ST|60501^Amikacin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|3|ST|60506^Amoxicillin/Clavulanate&AST Interp|1|Resistant|||RESIST||A~S|F||Y||||
+OBX|4|ST|60504^Ampicillin&AST Interp|1|Resistant|||RESIST||A~S|F||Y||||
+OBX|5|ST|60564^Aztreonam&AST Dilutn|1|<=2|||SUSCEPT||A~S|F||N||||
+OBX|6|ST|60564^Aztreonam&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||N||||
+OBX|7|ST|60512^Cefazolin&AST Interp|1|Resistant|||RESIST||A~S|F||Y||||
+OBX|8|ST|61103^Cefepime&AST Dilutn|1|<=1|||SUSCEPT||A~S|F||Y||||
+OBX|9|ST|61103^Cefepime&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|10|ST|60518^Ceftazidime&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|11|ST|60518^Ceftazidime&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|12|ST|60520^Ceftriaxone&AST Dilutn|1|<=2|||SUSCEPT||A~S|F||Y||||
+OBX|13|ST|60520^Ceftriaxone&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|14|ST|60521^Cefuroxime&AST Dilutn|1|>=32|||RESIST||A~S|F||Y||||
+OBX|15|ST|60521^Cefuroxime&AST Interp|1|Resistant|||RESIST||A~S|F||Y||||
+OBX|16|ST|60567^Ciprofloxacin&AST Dilutn|1|<=0.5|||SUSCEPT||A~S|F||Y||||
+OBX|17|ST|60567^Ciprofloxacin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|18|NM|60536^Gentamicin&AST Dilutn|1|1|||SUSCEPT||A~S|F||Y||||
+OBX|19|ST|60536^Gentamicin&AST Interp|1|Susceptible|||SUSCEPT||A~S|F||Y||||
+OBX|20|ST|60565^Imipenem&AST Dilutn|1|=16|||RESIST||A~S|F||N||||
+OBX|21|ST|60565^Imipenem&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|22|ST|60675^Meropenem&AST Dilutn|1|=16|||RESIST||A~S|F||N||||
+OBX|23|ST|60675^Meropenem&AST Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|24|ST|DWZ6766^Doripenem&BMIC Dilutn|1|>=16|||RESIST||A~S|F||N||||
+OBX|25|ST|DWZ6766^Doripenem&BMIC Interp|1|Resistant|||RESIST||A~S|F||N||||
+OBX|26|ST|60711^Ertapenem&AST Dilutn|1|=4|||RESIST||A~S|F||Y||||
+OBX|27|ST|60711^Ertapenem&AST Interp|1|Resistant|||RESIST||A~S|F||Y||||
